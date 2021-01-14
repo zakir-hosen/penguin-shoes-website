@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>penguin shoes website assignment</title>
-   
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
@@ -39,7 +40,7 @@
 
 <main class="container">
 
-    <div class="row mt-5 m-10">
+    <div class="row mt-5 ">
         <img class="col-md-5" src="images/Group 33092.png" alt="">
         <div class=" col-md-7 ">
             <h1 class="description" style="color: orange;" class="danger">NIKE REACT</h1>
@@ -47,20 +48,31 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat at natus sint culpa deleniti, quidem reprehenderit beatae odit corporis consequatur maiores sequi eius unde porro voluptatem consequuntur quos corrupti laudantium.</p>
       
                 
-            <button class="btn btn-primary"><i class="fas fa-shopping-cart mr-1"></i> Buy now</button>
-            <button class="btn btn-light">Details <i class="fas fa-info-circle ml-1"></i></button>
+            <div class="row">
+              <button class="btn btn-primary">
+                <i class="fas fa-shopping-cart ">BUY NOW</i>
+                
+              </button>
+            </div>
+              
+            </button>
+        
 
         </div>
     </div>
     
-<section class="container casual-shoes mt-10 ">
+<section class="container casual-shoes mt-20 ">
+  <h3>Casual shoes</h3>
     <div class="card-group">
         <div class="card">
           <img class="card-img-top" src="images/Daco_1703273 1.png" alt="Card image cap">
           <div class="card-body">
             <h2 class="card-title">Nike Shoe</h2>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="row">
+              <p class="col-md-6 price">$234</p>
+              <button class="btn btn-primary ">Buy now</button>
+            </div>
           </div>
         </div>
         <div class="card">
@@ -68,7 +80,10 @@
           <div class="card-body">
             <h2 class="card-title">Sneakers Skate Shoe </h2>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="row">
+              <p class="col-md-6 price">$234</p>
+              <button class="btn btn-primary">Buy now</button>
+            </div>
           </div>
         </div>
         <div class="card">
@@ -76,19 +91,27 @@
           <div class="card-body">
             <h2 class="card-title">Sneakers Basketball shoe</h2>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="row">
+              <p class="col-md-6 price ">$234</p>
+              <button class="btn btn-primary">Buy now</button>
+            </div>
           </div>
         </div>
       </div>
 </section>
 
-<section class="container formal-shoes mt-10 ">
+<section class="container formal-shoes mt-20 ">
+   <h3>Formal shoes</h3>
     <div class="card-group">
         <div class="card">
           <img class="card-img-top" src="images/Mask Group.png" alt="Card image cap">
           <div class="card-body">
             <h2 class="card-title">Prestige High-Cut Leather</h2>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="row">
+              <p class="col-md-6 price">$234</p>
+              <button class="btn btn-primary">Buy now</button>
+            </div>
            
           </div>
         </div>
@@ -97,6 +120,10 @@
           <div class="card-body">
             <h2 class="card-title">Slip-On Formal Shoe </h2>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <div class="row">
+              <p class="col-md-6 price">$234</p>
+              <button class="btn btn-primary">Buy now</button>
+            </div>
             
           </div>
         </div>
@@ -105,6 +132,10 @@
           <div class="card-body">
             <h2 class="card-title">Slip-On Formal Shoe</h2>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <div class="row">
+              <p class="col-md-6 price">$234</p>
+              <button class="btn btn-primary">Buy now</button>
+            </div>
             
           </div>
         </div>
@@ -112,7 +143,7 @@
 </section>
 </main>
 
-
+<i class="fas fa-shopping-cart"></i>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

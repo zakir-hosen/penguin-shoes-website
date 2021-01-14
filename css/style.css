@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-   font-family: Roboto Slab;
+   font-family: open Sans;
 }
 
 .logo-image {
@@ -15,4 +15,8 @@
 }
 .description {
     font-weight: bold;
+}
+.price {
+    font-weight: bold;
+    font-size: 20px;
 }
