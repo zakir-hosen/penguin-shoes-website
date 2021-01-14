@@ -22,5 +22,19 @@
 .price {
     font-weight: bold;
     font-size: 20px;
+    color:#ff6100;
 }
 
+.cart-image {
+    width: 100%;
+}
+.left-image {
+    width: 40%;
+    padding-left: 50px;
+}
+
+
+.footer-section {
+    background-color: #ecf0f1 ;
+    
+}
